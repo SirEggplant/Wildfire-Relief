@@ -1,0 +1,14 @@
+<div>
+    <h2>Wildfire Relief Portal</h2>
+    <input type ="text" placeholder ="Username" [(ngModel)]="username" (keydown.enter)="login()">
+    <input type="password" placeholder="Password" [(ngModel)]="password" (keydown.enter)="login()">
+    <button (click)="login()">Login</button>
+    <button routerLink="/register" class="btn btn-link">Register Account</button>
+
+    <p *ngIf="error" style="color: red;">{{ error }}</p>
+
+    <div *ngIf="role">
+        <p>Logged in as: {{role }}</p>
+        <button (click)="logout()">Logout</button>
+    </div>
+</div>
