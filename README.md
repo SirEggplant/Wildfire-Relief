@@ -1,5 +1,5 @@
 # U-Fund: Wildfire Relief
-# Modify this document to expand any and all sections that are applicable for a better understanding from your users/testers/collaborators (remove this comment and other instructions areas for your FINAL release)
+# Modify this document to expand any and all sections that are applicable for a better understanding from your users/testers/collaborators
 
 An online U-Fund system built in Java **21** and ___ _replace with other platform requirements_ ___
   
@@ -24,12 +24,6 @@ An online U-Fund system built in Java **21** and ___ _replace with other platfor
 2. Execute `mvn compile exec:java`
 3. Open in your browser `http://localhost:8080/`
 4.  _add any other steps required or examples of how to use/run_
-
-## Known bugs and disclaimers
-(It may be the case that your implementation is not perfect.)
-
-Document any known bug or nuisance.
-If any shortcomings, make clear what these are and where they are located.
 
 ## How to test it
 
